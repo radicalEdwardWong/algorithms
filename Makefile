@@ -2,8 +2,7 @@ CPPGNU = g++ -std=c++0x
 
 SOURCE = src/
 
-#TARGET = quickfind
-TARGET = quickunion
+TARGET = weighted-quick-union
 
 all: $(TARGET)
 
